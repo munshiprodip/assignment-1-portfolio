@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #010101;
+    font-size: 18px;
+}
+
+#header,
+#wellcome,
+#about,
+#portfolio,
+#contact,
+#footer{
+    width: 100%;
+    padding-bottom: 100px;
+}
+#portfolio{
+    background-color: #ddd;
+}
+.menu-bar{
+    padding: 20px 0px;
+}
+.logo{
+    float: left;
+    font-size: 40px;
+    font-weight: 700;
+}
+.top-menu{
+    float: right;
+    list-style: none;
+    padding-top: 14px;
+}
+.top-menu li{
+    display: inline-block;
+    padding-left: 45px;
+    font-weight: 700;
+}
+
+.top-menu li a{
+    text-decoration: none;
+    color: #010101;
+}
+
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.w-50{
+    width: 45%;
+    margin-right: 10%;
+    float: left;
+}
+.conteny-wrapper {
+    margin: 200px 0px;
+}
+
+a.btn {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #d59d9d, orange);
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+img{
+    width: 100%;
+}
+
+.icon-sm{
+    width: 20px;
+}
+
+.title-text-1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+
+}
+.title-text-2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.title-text-3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.title-text-4{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.text-content{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 25px 0px;
+}
+
+.text-orange{
+    color: orange;
+}
+.text-center{
+    text-align: center;
+}
+
+
+.card{
+    width: 27%;
+    margin-right: 3%;
+    padding: 2%;
+    float: left;
+    box-shadow: 0px 0px 30px -15px #010101;
+    border-radius: 15px;
+    background-color: #fff;
+    min-height: 430px;
+}
+
+.card .title-text-4{
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.projects{
+    overflow:unset;
+    min-height: 790px;
+}
+
+.chat-box {
+    width: 60%;
+    margin: 0 auto;
+    background-image: url(../images/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 100px 98px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.chat-box h1 {
+    float: left;
+    color: white;
+}
+.chat-box a {
+    float: right;
+    margin-top: 10px;
+}
+
+.contact-menu{
+    text-align: center;
+}
+
+.contact-menu h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+}
+.contact-menu h3{
+    font-size: 35px;
+    text-transform: lowercase;
+}
+.social-menu{
+    list-style: none;
+}
+
+.social-menu li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.icon{
+    width: 40px;
+}
+
+#footer{
+    padding: 20px 0px;    
+}
+.copyright-text{
+    font-size: 15px;
+}
+.float-right{
+    float: right;
+}
+#footer a{
+    text-decoration: none;
+    color: #5952c1;
+    font-weight: 700;
+}
+.margin-r-0 {
+    margin-right: 0;
+}
+.padding-t-b-100{
+    padding: 100px 0px;
+}
