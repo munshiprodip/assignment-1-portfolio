@@ -20,6 +20,8 @@ body{
 #portfolio{
     background-color: #ddd;
 }
+
+/* menu bar styles */
 .menu-bar{
     padding: 20px 0px;
 }
@@ -38,19 +40,18 @@ body{
     padding-left: 45px;
     font-weight: 700;
 }
-
 .top-menu li a{
     text-decoration: none;
     color: #010101;
 }
 
 
+/* common styles */
 .container{
     width: 85%;
     margin: 0 auto;
     overflow: hidden;
 }
-
 .w-50{
     width: 45%;
     margin-right: 10%;
@@ -59,7 +60,6 @@ body{
 .conteny-wrapper {
     margin: 200px 0px;
 }
-
 a.btn {
     text-decoration: none;
     background-image: linear-gradient(45deg, #d59d9d, orange);
@@ -69,20 +69,19 @@ a.btn {
     border-radius: 5px;
     display: inline-block;
 }
-
 img{
     width: 100%;
 }
-
 .icon-sm{
     width: 20px;
 }
 
+
+/* text styles */
 .title-text-1{
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
     text-transform: uppercase;
-
 }
 .title-text-2{
     font-family: 'Oswald', sans-serif;
@@ -112,6 +111,11 @@ img{
 }
 
 
+/* project section styles */
+.projects{
+    overflow:unset;
+    min-height: 790px;
+}
 .card{
     width: 27%;
     margin-right: 3%;
@@ -122,16 +126,42 @@ img{
     background-color: #fff;
     min-height: 430px;
 }
-
 .card .title-text-4{
     text-transform: capitalize;
     padding-top: 20px;
 }
-.projects{
-    overflow:unset;
-    min-height: 790px;
+
+
+/* message section styles */
+.message-wraper{
+    padding: 50px;
+    overflow: hidden;
+}
+.message{
+    width: 27%;
+    background: #fff;
+    padding: 2%;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 3px 3px 19px -10px #010101;
+    border-radius: 17px;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, #2200ff, #7e87c5);
+    border-image-slice: 1;
+    text-align: center;
+    background-image: url(images/line.png);
+}
+.message h3{
+    padding: 15px 0px;
+}
+.message p{
+    font-size: 14px;
+}
+.client-image{
+    width: 100px;
 }
 
+/* contact section styles */
 .chat-box {
     width: 60%;
     margin: 0 auto;
@@ -169,16 +199,16 @@ img{
 .social-menu{
     list-style: none;
 }
-
 .social-menu li{
     display: inline-block;
     padding: 20px 10px;
 }
-
 .icon{
     width: 40px;
 }
 
+
+/* footer styles */
 #footer{
     padding: 20px 0px;    
 }
@@ -193,6 +223,7 @@ img{
     color: #5952c1;
     font-weight: 700;
 }
+
 .margin-r-0 {
     margin-right: 0;
 }
